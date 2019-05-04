@@ -36,6 +36,8 @@
   - Ran `vue add vuetify` in terminal.
     + Choose a preset? : Default (recommended)
       - The default preset has [a-la-carte](https://vuetifyjs.com/en/framework/a-la-carte) already enabled for you.
+* High Vulnerability Issue : NPM Package `Tar`
+  - Solved the issue by including code of `Tar` in package-lock.json with code in [this link](https://stackoverflow.com/a/55766169/10021131).
 
 # 2. Run the server
 * <b>Backend</b> : `pyenv activate useful_tips` - `python manage.py runserver`
