@@ -16,6 +16,7 @@ import PieChart from "../pieChart.js";
 import ChartJSPluginDatalabels from "chartjs-plugin-datalabels";
 
 export default {
+  name: "App",
   components: {
     PieChart
   },
@@ -33,7 +34,7 @@ export default {
       },
       options: {
         plugins: {
-          dataLabels: {
+          datalabels: {
             color: "white",
             textAlign: "center",
             formatter: function (value) {
