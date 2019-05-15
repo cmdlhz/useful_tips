@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Work from "./views/Work.vue";
+import VueCharts from "./views/VueCharts.vue";
 
 Vue.use(Router);
 
@@ -10,8 +11,13 @@ export default new Router({
   routes: [
     {
       path: "/work",
-      name: "work",
+      name: "Work",
       component: Work
+    },
+    {
+      path: "/chartjs",
+      name: "VueCharts",
+      component: VueCharts
     }
   ]
 });
